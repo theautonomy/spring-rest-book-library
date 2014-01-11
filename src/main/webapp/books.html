@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>Library</title>
+<meta charset="UTF-8">
+<meta name="description" content="" />
+<script type="text/javascript"	src="js/jquery-1.7.2.min.js"></script>
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<script type="text/javascript" src="js/prettify.js"></script>
+<!-- PRETTIFY -->
+<script type="text/javascript" src="js/kickstart.js"></script>
+<!-- KICKSTART -->
+<link rel="stylesheet" type="text/css" href="css/kickstart.css" media="all" />
+<!-- KICKSTART -->
+<link rel="stylesheet" type="text/css" href="css/kickstart-style.css" media="all" />
+<!-- CUSTOM STYLES -->
+
+</head>
+
+<body>
+
+	<div id="wrap" class="clearfix">
+
+		<div class="col_10">
+
+			<h3>Awesome Library Book List</h3>
+			<div class="col_4">
+				<input type="text" id="searchId" />
+			</div>
+			<div class="col_6">
+				<button id="btnSearch">Search</button>
+				<button id="btnAdd">Add New Book</button>
+			</div>
+
+		</div>
+		
+		<div class="col_10">
+
+			<div class="col_4">
+				<ul id="bookList"></ul>
+			</div>
+
+			<div class="col_6">
+
+				<form class="vertical" id="bookForm">
+					<label for="id">Id:</label> <input id="id" type="text" disabled />
+
+					<label for="author">Author:</label> <input type="text" id="author"
+						required> <label>Title:</label> <input type="text"
+						id="title" />
+
+					<button id="btnSave">Save</button>
+					<button id="btnDelete">Delete</button>
+					<br>
+				</form>
+			</div>
+
+		</div>
+
+		<script src="js/jquery-1.7.2.min.js"></script>
+		<script src="js/book.js"></script>
+		<div class="clear"></div>
+		<div id="footer"> </div>
+	</div>
+</body>
+</html>
